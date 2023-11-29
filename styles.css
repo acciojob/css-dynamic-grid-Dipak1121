@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 .grid-container{
 	display:grid;
+	grid-template-columns: repeat(auto-fill, 200px);
 	grid-gap: 10px;
 }
 .grid-item{
